@@ -1,7 +1,26 @@
+一、配置
 1.设置用户名：
 git config --global user.name 'xx' xx指用户名
 2.设置用户邮箱
 git config --global user.name 'xx' xx指邮箱
 3.查看设置
 git config
-
+二、上传文件
+4.创建文件夹
+mkdir xx      xx指文件夹名
+5.在文件内初始化仓库（创建git仓库）
+cd xx         xx文件夹名
+git init      初始化仓库
+6.向仓库添加文件
+touch xx.xx       在仓库中创建文件（要加后缀）(删除文件可用 rm xx）
+7.将文件上传到缓存区
+git add xx.xx     (git status 可以查看文件所存在的区域)
+8.将缓存区文件上传至GitHub中的仓库
+git commit -m 'add xx'  xx指对这个文件的描述
+三、修改文件 
+9.vi xx.xx    修改文件内容(修改完后 按esc再：wq 保存退出）
+10.重复7和8
+四、删除文件
+11.m -rf xx.xx
+git rm xx.xx
+git commit -m'提交描述'
