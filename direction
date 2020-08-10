@@ -5,6 +5,9 @@ git config --global user.name 'xx' xx指用户名
 git config --global user.name 'xx' xx指邮箱
 3.查看设置
 git config
+
+
+*******针对本地仓库**************************
 二、上传文件
 4.创建文件夹
 mkdir xx      xx指文件夹名
@@ -24,3 +27,16 @@ git commit -m 'add xx'  xx指对这个文件的描述
 11.rm -rf xx.xx
 git rm xx.xx
 git commit -m'提交描述'
+*******针对本地仓库**************************
+
+
+
+*******针对远程仓库**************************
+五、修改远程仓库文件
+12.将远程仓库（GitHub对应的项目）复制到本地
+git clone 仓库地址
+
+
+
+*******针对远程仓库**************************
+
