@@ -21,6 +21,6 @@ git commit -m 'add xx'  xx指对这个文件的描述
 9.vi xx.xx    修改文件内容(修改完后 按esc再：wq 保存退出）
 10.重复7和8
 四、删除文件
-11.m -rf xx.xx
+11.rm -rf xx.xx
 git rm xx.xx
 git commit -m'提交描述'
