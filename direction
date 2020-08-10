@@ -2,7 +2,7 @@
 1.设置用户名：
 git config --global user.name 'xx' xx指用户名
 2.设置用户邮箱
-git config --global user.name 'xx' xx指邮箱
+git config --global user.email 'xx' xx指邮箱
 3.查看设置
 git config
 
