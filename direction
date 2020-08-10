@@ -4,3 +4,4 @@ git config --global user.name 'xx' xx指用户名
 git config --global user.name 'xx' xx指邮箱名
 3.查看设置
 git config
+是
