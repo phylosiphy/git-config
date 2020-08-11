@@ -20,3 +20,12 @@ git diff --cached[快照ID]........对比快照与暂存区内容不同
 git commit --amend..............修改最后一次提交
 git check out -- xx.xx..........在工作区恢复一个文件
 git rm xx.xx....................在工作区和暂存区删除文件
+git rm --cached xx.xx...........删除缓存区一个文件
+git mv xx.xx xx.xx..............将xx.xx文件名改成xx.xx
+git branch xx...................创建一个分支
+git log --decorate..............查看分支(后加 --oneline 显示精简版)(--graph --all ,图形显示，显示所有)
+git checkout xx.................切换分支
+git merge xx....................指定分支名合并
+git branch -d xx................删除分支
+git checkout HEAD~..............在上一快照建立匿名分支
+
